@@ -1,0 +1,17 @@
+package generic.java;
+
+public class generic {
+	<T> void genericPrint(T t)
+	{
+		System.out.println(t);
+	}
+
+	public static void main(String[] args) {
+		generic aobj=new generic();
+		aobj.genericPrint(101);
+		aobj.genericPrint("Raju");
+		aobj.genericPrint(2.223);
+
+	}
+
+}
